@@ -1,7 +1,6 @@
 import Login from '../pages/login'
 
 describe('Produtos', () => {
-
     beforeEach(() => {
         // arranje
         Login.visitarPagina();

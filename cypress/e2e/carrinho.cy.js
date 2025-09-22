@@ -1,3 +1,5 @@
+import Carrinho from '../pages/carrinho'
+
 describe('Produtos', () => {
     beforeEach(() => {
         // arranje
