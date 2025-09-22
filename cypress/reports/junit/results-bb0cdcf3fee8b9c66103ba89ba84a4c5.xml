@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.277" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-09-22T19:08:41" tests="0" file="cypress\e2e\produtos.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Produtos" timestamp="2025-09-22T19:08:41" tests="3" time="15.272" failures="1">
+    <testcase name="Produtos Adicionar UM produto ao carrinho" time="3.676" classname="Adicionar UM produto ao carrinho">
+    </testcase>
+    <testcase name="Produtos Retirar UM produto ao carrinho" time="2.645" classname="Retirar UM produto ao carrinho">
+    </testcase>
+    <testcase name="Produtos Retirar UM produto ao carrinho com usuario com erro" time="0.000" classname="Retirar UM produto ao carrinho com usuario com erro">
+      <failure message="Timed out retrying after 4000ms: Expected &lt;span.shopping_cart_badge&gt; not to exist in the DOM, but it was continuously found." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected <span.shopping_cart_badge> not to exist in the DOM, but it was continuously found.
+    at Context.eval (webpack://apresentacao-sme/./cypress/e2e/produtos.cy.js:53:48)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

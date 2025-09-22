@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.274" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-09-22T19:01:39" tests="0" file="cypress\e2e\produtos.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Produtos" timestamp="2025-09-22T19:01:39" tests="3" time="13.272" failures="0">
+    <testcase name="Produtos Adicionar UM produto ao carrinho" time="4.270" classname="Adicionar UM produto ao carrinho">
+    </testcase>
+    <testcase name="Produtos Retirar UM produto ao carrinho" time="2.656" classname="Retirar UM produto ao carrinho">
+    </testcase>
+    <testcase name="Produtos Retirar UM produto ao carrinho com usuario com erro" time="2.374" classname="Retirar UM produto ao carrinho com usuario com erro">
+    </testcase>
+  </testsuite>
+</testsuites>
