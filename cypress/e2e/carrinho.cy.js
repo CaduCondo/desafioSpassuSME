@@ -5,6 +5,7 @@ describe('Produtos', () => {
         // arranje
         Login.visitarPagina();
         Login.preencherUsuarioValido();
+        
     })
   
   it('Adicionar UM produto ao carrinho', () => {
